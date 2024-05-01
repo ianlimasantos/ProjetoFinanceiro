@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Domain.Services
 {
-    public class BancoService : IBankService
+    public class BankService 
     {
     }
 }

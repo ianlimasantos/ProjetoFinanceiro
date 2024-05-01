@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Domain.Models
 {
-    public class Parcela
+    public class Product
     {
-        public long Id { get; private set; }
-        public long CompraId { get; private set; }
-        public bool FoiPaga { get; private set; }
-        public DateTime Vencimento { get; private set; }
+        public int Id { get; private set; }
+        public string Nome { get; private set; }
+        public float Preco { get; private set; }
+        public bool EmEstoque {  get; private set; }
         public DateTime DataCadastro { get; private set; }
         public DateTime DataAlteracao { get; private set; }
-        public virtual Compra Compra { get; private set; }
     }
 }

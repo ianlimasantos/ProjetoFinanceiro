@@ -10,10 +10,10 @@ namespace ProjetoFinanceiro.Application.Services.Interfaces
 {
     public interface IBankAppService
     {
-        Task<BancoViewModel> CadastrarBanco(NovoBancoViewModel novoBancoViewModel);
-        Task<BancoViewModel> AtualizarBanco(AtualizarBancoViewModel atualizarBancoViewModel);
-        Task<IEnumerable<BancoViewModel>> ListarBancos();
-        Task<BancoViewModel> ListarBancoPorId(long id);
+        Task<BankViewModel> CadastrarBanco(NewBankViewModel novoBancoViewModel);
+        Task<BankViewModel> AtualizarBanco(UpdateBankViewModel atualizarBancoViewModel);
+        Task<IEnumerable<BankViewModel>> ListarBancos();
+        Task<BankViewModel> ListarBancoPorId(long id);
         Task<bool> DeletarBanco(long  id);
 
 

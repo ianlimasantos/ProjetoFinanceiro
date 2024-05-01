@@ -18,12 +18,12 @@ namespace ProjetoFinanceiro.Application.Services
             _service = service;
         }
 
-        public Task<BancoViewModel> CadastrarBanco(NovoBancoViewModel novoBancoViewModel)
+        public Task<BankViewModel> CadastrarBanco(NewBankViewModel novoBancoViewModel)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BancoViewModel> AtualizarBanco(AtualizarBancoViewModel atualizarBancoViewModel)
+        public Task<BankViewModel> AtualizarBanco(UpdateBankViewModel atualizarBancoViewModel)
         {
             throw new NotImplementedException();
         }
@@ -33,12 +33,12 @@ namespace ProjetoFinanceiro.Application.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<BancoViewModel>> ListarBancos()
+        public Task<IEnumerable<BankViewModel>> ListarBancos()
         {
             throw new NotImplementedException();
         }
 
-        public Task<BancoViewModel> ListarBancoPorId(long id)
+        public Task<BankViewModel> ListarBancoPorId(long id)
         {
             throw new NotImplementedException();
         }

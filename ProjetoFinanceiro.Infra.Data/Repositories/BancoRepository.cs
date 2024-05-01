@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Infra.Data.Repositories
 {
-    public class BancoRepository : BaseRepository<Banco>, IBankRepository
+    public class BancoRepository : BaseRepository<Bank>, IBankRepository
     {
         private readonly FinanceiroContext _context;
 
@@ -18,17 +18,17 @@ namespace ProjetoFinanceiro.Infra.Data.Repositories
             _context = context;
         }
 
-        public Task<Banco> CreateCliente(Banco cliente)
+        public Task<Bank> CreateBank(Bank cliente)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Banco> DeleteCliente(Banco cliente)
+        public Task<Bank> DeleteBank(Bank cliente)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Banco> UpdateCliente(Banco cliente)
+        public Task<Bank> UpdateBank(Bank cliente)
         {
             throw new NotImplementedException();
         }

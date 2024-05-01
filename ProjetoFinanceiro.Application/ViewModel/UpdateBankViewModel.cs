@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Application.ViewModel
 {
-    public class AtualizarBancoViewModel
+    public class UpdateBankViewModel
     {
         public long Id {  get; set; }
         public string Codigo { get; set; }

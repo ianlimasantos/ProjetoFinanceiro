@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Application.ViewModel
 {
-    public class BancoViewModel
+    public class BankViewModel
     {
     }
 }

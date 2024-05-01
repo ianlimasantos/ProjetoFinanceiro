@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Infra.Data.EF.Maps
 {
-    public class ClienteMapping : IEntityTypeConfiguration<Cliente>
+    public class ClienteMapping : IEntityTypeConfiguration<Client>
     {
-        public void Configure(EntityTypeBuilder<Cliente> builder)
+        public void Configure(EntityTypeBuilder<Client> builder)
         {
             builder.HasKey(x => x.Id);
 

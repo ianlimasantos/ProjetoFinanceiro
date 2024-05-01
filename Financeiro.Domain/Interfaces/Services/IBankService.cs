@@ -9,11 +9,11 @@ namespace ProjetoFinanceiro.Domain.Interfaces.Services
 {
     public interface IBankService
     {
-        Task<Banco> GetByIdAsync(long id);
-        Task<Banco> GetAllAsync();
-        Task<Banco> CreateBank(Banco banco);
-        Task<Banco> UpdateBank(Banco banco);
-        Task<Banco> DeleteBank(long id);
+        Task<Bank> GetByIdAsync(long id);
+        Task<Bank> GetAllAsync();
+        Task<Bank> CreateBank(Bank banco);
+        Task<Bank> UpdateBank(Bank banco);
+        Task<Bank> DeleteBank(long id);
 
     }
 }

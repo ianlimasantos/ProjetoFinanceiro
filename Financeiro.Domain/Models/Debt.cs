@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Domain.Models
 {
-    public class Divida
+    public class Debt
     {
         public long Id { get; private set; }
         public long ClienteId  { get; private set; }
@@ -15,8 +15,8 @@ namespace ProjetoFinanceiro.Domain.Models
         public long ValorDividaNoPrazo { get; private set; }
         public DateTime DataCadastro { get; private set; }
         public DateTime DataAlteracao { get; private set; }
-        public Cliente Clientes { get; private set; }
-        public ICollection<Parcela> Parcelas { get; private set;}
+        public Client Clientes { get; private set; }
+        public ICollection<Installment> Parcelas { get; private set;}
 
     }
 }

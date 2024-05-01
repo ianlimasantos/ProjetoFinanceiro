@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Domain.Interfaces.Repositories
 {
-    public interface IClienteRepository : IBaseRepository<Cliente>
+    public interface IClienteRepository : IBaseRepository<Client>
     {
-        Task<Cliente> CreateCliente(Cliente cliente);
-        Task<Cliente> UpdateCliente(Cliente cliente);
-        Task<Cliente> DeleteCliente(Cliente cliente);
+        Task<Client> CreateCliente(Client cliente);
+        Task<Client> UpdateCliente(Client cliente);
+        Task<Client> DeleteCliente(Client cliente);
 
     }
 }

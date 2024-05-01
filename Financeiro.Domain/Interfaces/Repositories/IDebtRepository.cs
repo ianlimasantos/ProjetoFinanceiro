@@ -9,8 +9,8 @@ namespace ProjetoFinanceiro.Domain.Interfaces.Repositories
 {
     public interface IDebtRepository
     {
-        Task<Divida> CreateDivida(Divida divida);
-        Task<Divida> UpdateDivida(Divida divida);
-        Task<Divida> DeleteDivida(Divida divida);
+        Task<Debt> CreateDivida(Debt divida);
+        Task<Debt> UpdateDivida(Debt divida);
+        Task<Debt> DeleteDivida(Debt divida);
     }
 }

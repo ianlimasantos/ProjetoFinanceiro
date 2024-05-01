@@ -20,8 +20,8 @@ namespace ProjetoFinanceiro.Infra.Data.EF
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Banco> Bancos { get; set; }
+        public DbSet<Client> Clientes { get; set; }
+        public DbSet<Bank> Bancos { get; set; }
 
     }
 }

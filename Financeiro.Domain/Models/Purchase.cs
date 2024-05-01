@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Domain.Models
 {
-    public class Compra
+    public class Purchase
     {
         public long Id { get; private set; }
         public long ClienteId {  get; private set; }
@@ -14,8 +14,8 @@ namespace ProjetoFinanceiro.Domain.Models
         public long BancoId { get; private set; }
         public DateTime DataCadastro { get; private set; }
         public DateTime DataAlteracao { get; private set; }
-        public virtual ICollection<Cliente> Clientes { get; private set; }
-        public virtual ICollection<Produto> Produtos { get; private set; }
-        public virtual ICollection<Banco> Bancos { get; private set; }
+        public virtual ICollection<Client> Clientes { get; private set; }
+        public virtual ICollection<Product> Produtos { get; private set; }
+        public virtual ICollection<Bank> Bancos { get; private set; }
     }
 }

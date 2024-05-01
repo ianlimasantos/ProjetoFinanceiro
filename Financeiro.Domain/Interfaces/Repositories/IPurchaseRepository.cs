@@ -9,8 +9,8 @@ namespace ProjetoFinanceiro.Domain.Interfaces.Repositories
 {
     public interface IPurchaseRepository
     {
-        Task<Compra> CreateCliente(Compra cliente);
-        Task<Compra> UpdateCliente(Compra cliente);
-        Task<Compra> DeleteCliente(Compra cliente);
+        Task<Purchase> CreateCliente(Purchase cliente);
+        Task<Purchase> UpdateCliente(Purchase cliente);
+        Task<Purchase> DeleteCliente(Purchase cliente);
     }
 }
