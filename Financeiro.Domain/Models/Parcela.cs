@@ -12,6 +12,8 @@ namespace ProjetoFinanceiro.Domain.Models
         public long CompraId { get; private set; }
         public bool FoiPaga { get; private set; }
         public DateTime Vencimento { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public DateTime DataAlteracao { get; private set; }
         public virtual Compra Compra { get; private set; }
     }
 }

@@ -14,7 +14,7 @@ namespace ProjetoFinanceiro.Infra.Ioc
 
         public static IServiceCollection ConfigureApplicationServices (this IServiceCollection services) {
 
-            services.AddScoped<IBancoRepository, BancoRepository>();
+            services.AddScoped<IBankRepository, BancoRepository>();
             return services;
         }
 

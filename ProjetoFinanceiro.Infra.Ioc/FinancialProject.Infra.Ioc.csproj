@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Financeiro.Domain\ProjetoFinanceiro.Domain.csproj" />
-    <ProjectReference Include="..\ProjetoFinanceiro.Infra.Data\ProjetoFinanceiro.Infra.Data.csproj" />
+    <ProjectReference Include="..\Financeiro.Domain\FinancialProject.Domain.csproj" />
+    <ProjectReference Include="..\ProjetoFinanceiro.Infra.Data\FinancialProject.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

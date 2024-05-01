@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Infra.Data.Repositories
 {
-    public class BancoRepository : BaseRepository<Banco>, IBancoRepository
+    public class BancoRepository : BaseRepository<Banco>, IBankRepository
     {
         private readonly FinanceiroContext _context;
 

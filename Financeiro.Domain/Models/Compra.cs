@@ -12,6 +12,8 @@ namespace ProjetoFinanceiro.Domain.Models
         public long ClienteId {  get; private set; }
         public long ProdutoId {  get; private set; }
         public long BancoId { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public DateTime DataAlteracao { get; private set; }
         public virtual ICollection<Cliente> Clientes { get; private set; }
         public virtual ICollection<Produto> Produtos { get; private set; }
         public virtual ICollection<Banco> Bancos { get; private set; }

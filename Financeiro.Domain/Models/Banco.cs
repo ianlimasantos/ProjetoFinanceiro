@@ -11,5 +11,7 @@ namespace ProjetoFinanceiro.Domain.Models
         public long Id { get; private set; }
         public string Nome { get; private set; }
         public string Codigo { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public DateTime DataAlteracao { get; private set; }
     }
 }

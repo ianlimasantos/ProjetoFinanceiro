@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinanceiro.Domain.Interfaces.Repositories
 {
-    public interface ICompraRepository
+    public interface IPurchaseRepository
     {
         Task<Compra> CreateCliente(Compra cliente);
         Task<Compra> UpdateCliente(Compra cliente);
